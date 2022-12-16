@@ -1,0 +1,75 @@
+* {
+            box-sizing:border-box;
+            margin:0px;
+            pading:0px;
+        }
+        
+        body {
+            background:black;
+        }
+        .container {
+            display:flex;
+            justify-content:center;
+            flex-wrap:wrap;
+        }
+        
+        .card {
+            background:white;
+            width:220px;
+            margin:10px;
+            border-radius:15px;
+        }
+        
+       .card:hover {
+          background:#3e6a66ce;
+          color:white;
+          transform:scale(1.03);
+       }
+       
+        .image {
+            
+            height:150px;
+            margin-bottom:10px;
+            background-size:cover;
+            border-radius:15px 15px 0px 0px;
+        }
+        
+        .mobile {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT73OR6sH82F3yP__uv0wkgQNyMNvg_cYZ6Iw&usqp=CAU')
+        }
+        
+        .headphone {
+            background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJnM57wD1zmqrQlitR3Nsu8wqDaVufJ_q78A&usqp=CAU')
+        }
+        
+        .laptop {
+            background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl3LR6fMtQ_iVeJLXTiDJYFn_U3hUux45UZQ&usqp=CAU')
+        }
+     
+    p {
+    font-size:18px;
+    font-family:serif;
+    padding: 5px;
+    line-height:20px;
+    margin-top:2px;
+}
+a {
+    background:black;
+    color:white;
+    padding:5px;
+    display:block;
+    text-align:center;
+    margin:20px 20px;
+    text-decoration:none;
+    
+}
+a:hover {
+    background:gray;
+    color:black;
+    transform:scale(1.02);
+   
+}
+.fa-brands {
+    font-size:20px;
+    padding:10px;  
+}
